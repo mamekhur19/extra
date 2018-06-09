@@ -15,7 +15,7 @@ BOTID = redis:get('BOT-ID') or 0
 http = require "socket.http"
 https = require "ssl.https"
 require("FrameWork")
-Execute_Sudo = {85386955,411253032}
+Execute_Sudo = {373322916}
 -------- Source Body --------
 function is_sudo(msg)
   local var = false
